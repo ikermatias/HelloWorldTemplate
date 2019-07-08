@@ -96,7 +96,7 @@ ud = Base64(Join('\n', [
 
 t.add_resource(IAMPolicy(
 	"Policy",
-	PolicyName="AllowS3"
+	PolicyName="AllowS3",
 	PolicyDocument=Policy(
 		Statement=[
 			Statement(
